@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5281C35F196DC0B700B5A2C9 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5281C35E196DC0B700B5A2C9 /* EditViewController.m */; };
 		5284DAA0196AE9FD00D8B703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5284DA9F196AE9FD00D8B703 /* Foundation.framework */; };
 		5284DAA2196AE9FD00D8B703 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5284DAA1196AE9FD00D8B703 /* CoreGraphics.framework */; };
 		5284DAA4196AE9FD00D8B703 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5284DAA3196AE9FD00D8B703 /* UIKit.framework */; };
@@ -21,6 +22,10 @@
 		5284DAC1196AE9FD00D8B703 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5284DAA3196AE9FD00D8B703 /* UIKit.framework */; };
 		5284DAC9196AE9FD00D8B703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5284DAC7196AE9FD00D8B703 /* InfoPlist.strings */; };
 		5284DACB196AE9FD00D8B703 /* EmployeeDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5284DACA196AE9FD00D8B703 /* EmployeeDataTests.m */; };
+		5284DAD6196AEA2200D8B703 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5284DAD5196AEA2200D8B703 /* TableViewController.m */; };
+		5284DAD9196AEA8C00D8B703 /* EmployeeRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5284DAD8196AEA8C00D8B703 /* EmployeeRecord.m */; };
+		5284DADC196AF0AF00D8B703 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5284DADB196AF0AF00D8B703 /* DetailViewController.m */; };
+		52F48B46196B180800138667 /* MenuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F48B45196B180800138667 /* MenuIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5281C35D196DC0B700B5A2C9 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		5281C35E196DC0B700B5A2C9 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 		5284DA9C196AE9FC00D8B703 /* EmployeeData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeeData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5284DA9F196AE9FD00D8B703 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5284DAA1196AE9FD00D8B703 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,13 @@
 		5284DAC6196AE9FD00D8B703 /* EmployeeDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmployeeDataTests-Info.plist"; sourceTree = "<group>"; };
 		5284DAC8196AE9FD00D8B703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5284DACA196AE9FD00D8B703 /* EmployeeDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeDataTests.m; sourceTree = "<group>"; };
+		5284DAD4196AEA2200D8B703 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5284DAD5196AEA2200D8B703 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		5284DAD7196AEA8C00D8B703 /* EmployeeRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeRecord.h; sourceTree = "<group>"; };
+		5284DAD8196AEA8C00D8B703 /* EmployeeRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeRecord.m; sourceTree = "<group>"; };
+		5284DADA196AF0AF00D8B703 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5284DADB196AF0AF00D8B703 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		52F48B45196B180800138667 /* MenuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +131,14 @@
 				5284DAB1196AE9FD00D8B703 /* Main.storyboard */,
 				5284DAB4196AE9FD00D8B703 /* ViewController.h */,
 				5284DAB5196AE9FD00D8B703 /* ViewController.m */,
+				5284DAD4196AEA2200D8B703 /* TableViewController.h */,
+				5284DAD5196AEA2200D8B703 /* TableViewController.m */,
+				5284DADA196AF0AF00D8B703 /* DetailViewController.h */,
+				5284DADB196AF0AF00D8B703 /* DetailViewController.m */,
+				5281C35D196DC0B700B5A2C9 /* EditViewController.h */,
+				5281C35E196DC0B700B5A2C9 /* EditViewController.m */,
+				5284DAD7196AEA8C00D8B703 /* EmployeeRecord.h */,
+				5284DAD8196AEA8C00D8B703 /* EmployeeRecord.m */,
 				5284DAB7196AE9FD00D8B703 /* Images.xcassets */,
 				5284DAA6196AE9FD00D8B703 /* Supporting Files */,
 			);
@@ -126,6 +148,7 @@
 		5284DAA6196AE9FD00D8B703 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				52F48B45196B180800138667 /* MenuIcon.png */,
 				5284DAA7196AE9FD00D8B703 /* EmployeeData-Info.plist */,
 				5284DAA8196AE9FD00D8B703 /* InfoPlist.strings */,
 				5284DAAB196AE9FD00D8B703 /* main.m */,
@@ -229,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5284DAB8196AE9FD00D8B703 /* Images.xcassets in Resources */,
+				52F48B46196B180800138667 /* MenuIcon.png in Resources */,
 				5284DAAA196AE9FD00D8B703 /* InfoPlist.strings in Resources */,
 				5284DAB3196AE9FD00D8B703 /* Main.storyboard in Resources */,
 			);
@@ -251,7 +275,11 @@
 			files = (
 				5284DAB6196AE9FD00D8B703 /* ViewController.m in Sources */,
 				5284DAB0196AE9FD00D8B703 /* AppDelegate.m in Sources */,
+				5284DAD9196AEA8C00D8B703 /* EmployeeRecord.m in Sources */,
+				5281C35F196DC0B700B5A2C9 /* EditViewController.m in Sources */,
 				5284DAAC196AE9FD00D8B703 /* main.m in Sources */,
+				5284DAD6196AEA2200D8B703 /* TableViewController.m in Sources */,
+				5284DADC196AF0AF00D8B703 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +484,7 @@
 				5284DAD0196AE9FD00D8B703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5284DAD1196AE9FD00D8B703 /* Build configuration list for PBXNativeTarget "EmployeeDataTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +493,7 @@
 				5284DAD3196AE9FD00D8B703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
